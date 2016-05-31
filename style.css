@@ -66,7 +66,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Typography
 -----------------------------------------------*/
 hr {
-	margin: 65px 0 50px;	
+	margin: 65px 0 50px;
 }
 
 /* ## Positioning */
@@ -87,7 +87,7 @@ h3 {
 	font-weight: 300;
 	line-height: 1.1;
 }
-.entry-content ul, 
+.entry-content ul,
 .entry-content ol {
 	font-weight: 300;
 	line-height: 26px;
@@ -106,9 +106,9 @@ input[type="submit"] {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.button-primary:hover, 
-.button-primary:focus, 
-.button-primary:active, 
+.button-primary:hover,
+.button-primary:focus,
+.button-primary:active,
 .open > .dropdown-toggle.button-primary,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
@@ -136,7 +136,7 @@ input[type="submit"]:focus {
 
 /* Social Media */
 .social {
-	text-align: center;	
+	text-align: center;
 }
 
 .navbar-nav {
@@ -159,14 +159,14 @@ input[type="submit"]:focus {
 	text-align: center;
 }
 .mod-divider-2 {
-	text-align: center; 
+	text-align: center;
 }
 
 /* ## Gamma */
 .mod-gamma-1 {
-	text-align: center;	
+	text-align: center;
 }
-.mod-gamma-2 {	
+.mod-gamma-2 {
 	text-align: center;
 }
 .mod-gamma-1 h2 {
@@ -176,7 +176,7 @@ input[type="submit"]:focus {
 /* # Pages */
 /* ## Gallery */
 .wc-gallery .gallery-caption h2:first-child {
-	word-spacing: 900px;	
+	word-spacing: 900px;
 }
 .wc-gallery .gallery-caption h2 {
 	font-size: 60px;
@@ -201,7 +201,7 @@ input[type="submit"]:focus {
 
 /* # Footer */
 .site-footer {
-	text-align: center;		
+	text-align: center;
 }
 .site-info,
 .attribution {
@@ -263,7 +263,7 @@ input[type="submit"]:focus {
     margin-bottom: 15px;
 }
 h2 i.fa {
-	padding-right: 10px;	
+	padding-right: 10px;
 }
 
 /*-----------------------------------------------
@@ -286,7 +286,7 @@ input[type="submit"] {
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;	
+	transition: all 0.3s ease 0s;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -381,13 +381,13 @@ select {
 
 /* Search Form */
 .form-control {
-	display: inline-block;	
+	display: inline-block;
 }
 
 /* sm */
 @media (min-width: 768px) {
 	select {
-		background: url('images/form-arrow-down.png') 100% / 7% no-repeat #fff;	
+		background: url('images/form-arrow-down.png') 100% / 7% no-repeat #fff;
 	}
 	.address_city {
 		margin-right: 1.3% !important;
@@ -404,13 +404,13 @@ select {
 	.address_country {
 		margin-left: 1.3% !important;
 		width: 48% !important;
-	}	
+	}
 }
 
 /* md */
 @media (min-width: 992px) {
 	select {
-		background: url('images/form-arrow-down.png') 100% / 10% no-repeat #fff;	
+		background: url('images/form-arrow-down.png') 100% / 10% no-repeat #fff;
 	}
 }
 
@@ -424,7 +424,7 @@ select {
 	margin-top: 0;
 }
 .site-header {
-	padding-top: 15px;	
+	padding-top: 15px;
 }
 
 /* Social Media */
@@ -433,7 +433,7 @@ select {
 	padding-right: 0;
 }
 .social a i {
-	padding: 10px 5px;	
+	padding: 10px 5px;
 }
 
 /*------------------------------------------------------------------------
@@ -457,7 +457,7 @@ select {
     padding: 15px 10px;
 }
 #primary-navbar {
-	padding-right: 0;	
+	padding-right: 0;
 }
 
 /* sm */
@@ -465,10 +465,10 @@ select {
 	/* Small - tablets */
 	.navbar-default {
 		float: left;
-		padding-top: 0;	
+		padding-top: 0;
 	}
 	.navbar-collapse {
-		background: none;		
+		background: none;
 	}
 }
 
@@ -476,7 +476,7 @@ select {
 @media (min-width: 992px) {
 	.navbar-default {
 		float: right;
-		margin-right: -15px;	
+		margin-right: -15px;
 	}
 }
 
@@ -487,20 +487,20 @@ select {
 	margin-top: -15px;
 }
 .secondary-menu li a {
-	padding: 0 10px;	
+	padding: 0 10px;
 }
 .secondary-menu li:after {
-	content: "";	
+	content: "";
 }
 .tertiary-menu {
 	background: none;
 	padding-right: 0;
-}	
+}
 .tertiary-menu li a {
-	padding: 0 5px;	
+	padding: 0 5px;
 }
 .tertiary-menu li:after {
-	content: "";	
+	content: "";
 }
 
 
@@ -513,7 +513,7 @@ select {
 }
 .menu-social ul li {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
 }
 .menu-social li a {
 	display: inline-block;
@@ -523,13 +523,13 @@ select {
     padding: 0 3px;
 }
 .footer-center-menu ul {
-	padding-left: 0;	
+	padding-left: 0;
 }
 .footer-center-menu li.menu-social:after {
 	content: "";
 }
 .footer-center-menu li.menu-social a {
-	padding: 0 5px;	
+	padding: 0 5px;
 }
 
 /*------------------------------------------------------------------------
@@ -539,14 +539,14 @@ select {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.gridblock h1, 
-.gridblock h2, 
-.gridblock h3, 
-.gridblock h4, 
-.gridblock h5, 
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
 .gridblock h6,
-.gridblock ol, 
-.gridblock ul, 
+.gridblock ol,
+.gridblock ul,
 .gridblock li,
 .gridblock p {
 	margin: 10px 0;
@@ -614,7 +614,7 @@ select {
 .image-gallery img,
 .video-gallery img,
 .slideshow-gallery img {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 .mod-img-circle img {
 	border-radius: 50%;
@@ -690,7 +690,7 @@ select {
 	border-radius: 120px;
 }
 .mod-gamma-2 {
-	margin: 75px 0px;	
+	margin: 75px 0px;
 }
 .mod-gamma-1 h2 {
 	margin: 15px 0;
@@ -704,10 +704,10 @@ select {
 	padding: 24px 20px;
 }
 .mod-gamma-1 .fa-check-circle-o {
-	padding: 25px 30px;	
+	padding: 25px 30px;
 }
 .mod-gamma-1 .fa-rocket {
-	padding: 25px 25px;	
+	padding: 25px 25px;
 }
 
 /*------------------------------------------------------------------------
@@ -726,14 +726,14 @@ select {
 	bottom: 0;
 	content: "";
 	left: 0;
-	position: absolute; 
+	position: absolute;
 	right: 0;
-	top: 0;	
-} 
+	top: 0;
+}
 .gallery-icon img {
 	float: left;
-} 
-.wc-image-links .gallery-caption, 
+}
+.wc-image-links .gallery-caption,
 .wc-gallery-captions-showon .gallery-caption{
 	height: 100%;
 	max-height: 100%;
@@ -788,7 +788,7 @@ select {
 
 /* Call to Action */
 .single .call-to-action {
-	display: none;	
+	display: none;
 }
 
 /* Buttons */
@@ -804,7 +804,7 @@ select {
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;	
+	transition: all 0.3s ease 0s;
 }
 
 /*------------------------------------------------------------------------
@@ -818,7 +818,7 @@ select {
     background-image: none;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
-	background: none;	
+	background: none;
 }
 
 /*------------------------------------------------------------------------
