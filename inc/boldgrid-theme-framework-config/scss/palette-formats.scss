@@ -1,0 +1,147 @@
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+
+    /*-----------------------------------------------
+    ## 1
+    -----------------------------------------------*/
+    a,
+    .link-primary,
+    .widget-title,
+    #reply-title,
+    .social i:hover {
+        color: $palette-primary_1;
+    }
+    .entry-title,
+    .entry-title a {
+        background: $palette-primary_2;
+        color: $text-contrast-palette-primary_2;
+    }
+
+    /*-----------------------------------------------
+    ## 2
+    -----------------------------------------------*/
+    .button-primary,
+    .form-submit .submit,
+    input[type="submit"]  {
+        border: 2px solid $palette-primary_2;
+        color: $palette-primary_2;
+    }
+    .open > .dropdown-toggle.button-primary,
+    .button-primary:hover, 
+    .button-primary:focus, 
+    .button-primary:active, 
+    .form-submit .submit:hover,
+    .form-submit .submit:focus,
+    input[type="submit"]:hover,
+    input[type="submit"]:focus {
+        background: $palette-primary_2;
+        border-color: $palette-primary_2;
+        color: $text-contrast-palette-primary_2;
+    }
+    #tertiary-menu .current_page_item a[href],
+    #menu-social .current_page_item a[href],
+    #tertiary-menu .menu-item a[href]:hover,
+    #menu-social .menu-item a[href]:hover,
+    #tertiary-menu .menu-item a[href]:focus,
+    #menu-social .menu-item a[href]:focus,
+    .footer-center-menu li:after,
+    .current_page_item a,
+    .link-secondary {
+        color: $palette-primary_2;
+    }
+    .secondary-menu,
+    .background-icon {
+        background: $palette-primary_2;
+    }
+    .mod-blockquote {
+        border-left: 5px solid $palette-primary_2;
+    }
+    .nav > li > a:hover, 
+    .nav > li > a:focus {
+        background: $palette-primary_2;
+        color: $text-contrast-palette-primary_2;
+    }
+
+    #footer-center-menu {
+        .menu-item a {
+            color: black;
+        }
+        .current_page_item a[href] {
+            color: $palette-primary_1;
+        }
+    }
+
+    /*-----------------------------------------------
+    ## 3
+    -----------------------------------------------*/
+    .site-header {
+        background: $palette-primary_3;
+        color: $text-contrast-palette-primary_3;
+        border-bottom: 5px solid $palette-primary_2;
+    }
+    .site-title a,
+    .social i,
+    .site-description {
+        color: $text-contrast-palette-primary_3;
+    }
+    #secondary-menu .current_page_item a[href] {
+        color: $palette-primary_3;
+    }
+    #secondary-menu a[href],
+    #tertiary-menu a[href] {
+        color: $text-contrast-palette-primary_3;
+    }
+    #secondary-menu .menu-item a {
+        color: $text-contrast-palette-primary_2;
+    }
+    .dropdown .active, ul.dropdown-menu {
+        background: $palette-primary_1;
+        color: $text-contrast-palette-primary_1;
+    }
+    .navbar-default .navbar-nav {
+        > {
+            .current-menu-parent > a {
+                color: $palette-primary_2;
+            }
+            .active > a {
+                color: $palette-primary_2;
+                background: none;
+                &:hover, &:focus {
+                    color: $palette-primary_2;
+                    background: none;
+                }
+            }
+            li > a {
+                &:hover, &:focus {
+                    color: $palette-primary_2;
+                    background: none;
+                }
+            }
+        }
+        .dropdown .dropdown-menu > {
+            .active > a {
+                background: $palette-primary_2;
+                color: $text-contrast-palette-primary_2;
+                &:hover, &:focus {
+                    background: $palette-primary_2;
+                    color: $text-contrast-palette-primary_2;
+                }
+            }
+            li > a {
+                color: $text-contrast-palette-primary_1;
+                &:hover, &:focus {
+                    background: $palette-primary_2;
+                    color: $text-contrast-palette-primary_2;
+                }
+            }
+        }
+    }
+    .menu-item a {
+        color: $text-contrast-palette-primary_3;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: $text-contrast-palette-primary_3;
+    }
+}
