@@ -13,15 +13,24 @@
     .social i:hover {
         color: $palette-primary_1;
     }
+    .site-footer a,
+    .site-footer a:hover,
+    .site-footer a:focus,
+    .attribution a,
+    .attribution a:hover,
+    .attribution a:focus,
+    #footer-center-menu .current_page_item a[href] {
+        color: $palette-primary_1;
+    }
+    
+    /*-----------------------------------------------
+    ## 2
+    -----------------------------------------------*/
     .entry-title,
     .entry-title a {
         background: $palette-primary_2;
         color: $text-contrast-palette-primary_2;
     }
-
-    /*-----------------------------------------------
-    ## 2
-    -----------------------------------------------*/
     .button-primary,
     .form-submit .submit,
     input[type="submit"]  {
@@ -64,15 +73,6 @@
         color: $text-contrast-palette-primary_2;
     }
 
-    #footer-center-menu {
-        .menu-item a {
-            color: black;
-        }
-        .current_page_item a[href] {
-            color: $palette-primary_1;
-        }
-    }
-
     /*-----------------------------------------------
     ## 3
     -----------------------------------------------*/
@@ -83,7 +83,12 @@
     }
     .site-title a,
     .social i,
-    .site-description {
+    .site-description,
+    .navbar-collapse,
+    .site-footer,
+    .site-footer p,
+    .attribution span {
+        background: $palette-primary_3;
         color: $text-contrast-palette-primary_3;
     }
     #secondary-menu .current_page_item a[href] {
@@ -92,6 +97,129 @@
     #secondary-menu a[href],
     #tertiary-menu a[href] {
         color: $text-contrast-palette-primary_3;
+    }
+
+     /*-----------------------------------------------
+    ## Light Text
+    -----------------------------------------------*/
+    .comment-text {
+        background: #fff;       
+    }
+    .secondary-menu li a,
+    .mod-gamma-1 i {
+        color: #fff;
+    }
+    /*-----------------------------------------------
+    ## Dark Text
+    -----------------------------------------------*/
+    p,
+    h1,
+    h3,
+    h2,
+    .site-info,
+    .site-info a,
+    .site-info a:hover,
+    .site-info a:focus,
+    .woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+    .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
+    .woocommerce div.product form.cart .variations label,
+    #footer-center-menu .menu-item a {
+        color: #333;
+    }
+
+    /*-----------------------------------------------
+    ## Et Cetera
+    -----------------------------------------------*/
+    .menu-social li a {
+        color: #ccc;
+    }
+    .wc-gallery .gallery-caption h2 {
+        color: #f5f5f5;
+    }
+    .button-secondary {
+        border: 2px solid #777;
+        color: #777;
+    }
+    .button-secondary:hover,
+    .button-secondary:focus {
+        background-color: #777;
+        border-color: #777;
+        color: #fff;
+    }
+    hr {
+        background: #777;
+        border: 1px solid #dee0e0;
+    }
+    .tertiary-menu li a {
+        color: #555;
+    }
+    .gridblock li:before {
+        border-left: 7px solid #777;
+    }
+    .mod-divider-2 {
+        border-top: solid 1px #777;
+    }
+    mod-blockquote p,
+    .mod-gamma-2 {
+        color: #777;
+    }
+    .mod-beta img {
+        border: 1px solid #a5a5a5;  
+    }
+    .widget-area {
+        border: 1px solid #777;
+    }
+    .fa-facebook:hover,
+    .fa-facebook-f:hover,
+    .fa-facebook-official:hover,
+    .fa-facebook-square:hover {
+        color: #3b5998;
+    }
+    .fa-twitter:hover,
+    .fa-twitter-square:hover {
+        color: #00aced;
+    }
+    .fa-google:hover,
+    .fa-google-plus:hover,
+    .fa-google-plus-square:hover {
+        color: #dd4b39;
+    }
+    .fa-instagram:hover {
+        color: #517fa4;
+    }
+    .fa-linkedin:hover,
+    .fa-linkedin-square:hover {
+        color: #007bb6;
+    }
+    .fa-pinterest:hover,
+    .fa-pinterest-p:hover,
+    .fa-pinterest-square:hover {
+        color: #cb2027;
+    }
+    .fa-youtube:hover,
+    .fa-youtube-play:hover,
+    .fa-youtube-square:hover {
+        color: #bb0000;
+    }
+    .wc-image-links .gallery-caption, 
+    .wc-gallery-captions-showon .gallery-caption {
+        background: rgba(51, 51, 51, 0.60);
+        /* Box Shadow */
+        -webkit-box-shadow: inset 0px 0px 0px 15px rgba(255, 255, 255, 0.75);
+        -moz-box-shadow: inset 0px 0px 0px 15px rgba(255, 255, 255, 0.75);
+        box-shadow: inset 0px 0px 0px 15px rgba(255, 255, 255, 0.75);
+    }
+    .woocommerce #respond input#submit, 
+    .woocommerce a.button,
+    .woocommerce button.button, 
+    .woocommerce input.button,
+    .woocommerce p.buttons a.button {
+        background-color: #a46497;
+        color: #fff;
+    }
+    .woocommerce p.buttons a.button:hover {
+        background-color: #dad8da;
+        color: #515151;
     }
     #secondary-menu .menu-item a {
         color: $text-contrast-palette-primary_2;
