@@ -1,11 +1,50 @@
-<?php 
+<?php
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	/**
 	 * General Configs
 	 */
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-primas'; // Text domain
+
+	// Enable Sticky Footer.
+	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
+
+	// Enable typography controls.
 	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
+
+	// Enable attribution links.
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
+
+	// Enable template wrapper.
+	$boldgrid_framework_configs['boldgrid-parent-theme'] = true;
+
+	// Specify the parent theme's name.
+	$boldgrid_framework_configs['parent-theme-name'] = 'prime';
+
+	// Select the header template to use.
+	$boldgrid_framework_configs['template']['header'] = 'generic';
+
+	// Select the footer template to use.
+	$boldgrid_framework_configs['template']['footer'] = 'generic';
+
+	// Assign Locations for Generic Header.
+	$boldgrid_framework_configs['template']['locations']['header'] = array(
+		'1' => array( '[menu]secondary' ),
+		'5' => array( '[widget]boldgrid-widget-2' ),
+		'6' => array( '[action]boldgrid_site_identity' ),
+		'7' => array( '[menu]social' ),
+		'11' => array( '[action]boldgrid_primary_navigation' ),
+		'13' => array( '[menu]tertiary' ),
+	);
+
+	// Assign Locations for Generic Footer.
+	$boldgrid_framework_configs['template']['locations']['footer'] = array(
+		'1' => array( '[widget]boldgrid-widget-3' ),
+		'5' => array( '[menu]footer_center' ),
+		'8' => array( '[action]boldgrid_display_attribution_links' ),
+	);
+
+	// This theme doesn't have a Call To Action.
+	$boldgrid_framework_configs['template']['call-to-action'] = '';
 
 	/**
 	 * Customizer Configs
@@ -67,7 +106,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		case 14: //<-- Fashion
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][4]['default'] = true;
 			break;
-		
+
 		// Default Behavior
 		default:
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][0]['default'] = true;
@@ -111,8 +150,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['boldgrid_background_type'] = 'pattern';
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['boldgrid_background_pattern'] = 'maze-white.png';
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['background_image'] = false;
-	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
-	
+
 	/**
 	 * Widgets
 	 */
@@ -134,7 +172,7 @@ HTML;
 	// Name Widget Areas
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Above Header';
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-2']['name'] = 'Above Primary Menu';
-	
+
 	// Configs above will override framework defaults
 	return $boldgrid_framework_configs;
 }

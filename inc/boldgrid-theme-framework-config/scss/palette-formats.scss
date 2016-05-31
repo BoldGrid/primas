@@ -22,7 +22,7 @@
     #footer-center-menu .current_page_item a[href] {
         color: $palette-primary_1;
     }
-    
+
     /*-----------------------------------------------
     ## 2
     -----------------------------------------------*/
@@ -38,9 +38,9 @@
         color: $palette-primary_2;
     }
     .open > .dropdown-toggle.button-primary,
-    .button-primary:hover, 
-    .button-primary:focus, 
-    .button-primary:active, 
+    .button-primary:hover,
+    .button-primary:focus,
+    .button-primary:active,
     .form-submit .submit:hover,
     .form-submit .submit:focus,
     input[type="submit"]:hover,
@@ -67,7 +67,7 @@
     .mod-blockquote {
         border-left: 5px solid $palette-primary_2;
     }
-    .nav > li > a:hover, 
+    .nav > li > a:hover,
     .nav > li > a:focus {
         background: $palette-primary_2;
         color: $text-contrast-palette-primary_2;
@@ -103,7 +103,7 @@
     ## Light Text
     -----------------------------------------------*/
     .comment-text {
-        background: #fff;       
+        background: #fff;
     }
     .secondary-menu li a,
     .mod-gamma-1 i {
@@ -164,7 +164,7 @@
         color: #777;
     }
     .mod-beta img {
-        border: 1px solid #a5a5a5;  
+        border: 1px solid #a5a5a5;
     }
     .widget-area {
         border: 1px solid #777;
@@ -201,7 +201,7 @@
     .fa-youtube-square:hover {
         color: #bb0000;
     }
-    .wc-image-links .gallery-caption, 
+    .wc-image-links .gallery-caption,
     .wc-gallery-captions-showon .gallery-caption {
         background: rgba(51, 51, 51, 0.60);
         /* Box Shadow */
@@ -209,9 +209,9 @@
         -moz-box-shadow: inset 0px 0px 0px 15px rgba(255, 255, 255, 0.75);
         box-shadow: inset 0px 0px 0px 15px rgba(255, 255, 255, 0.75);
     }
-    .woocommerce #respond input#submit, 
+    .woocommerce #respond input#submit,
     .woocommerce a.button,
-    .woocommerce button.button, 
+    .woocommerce button.button,
     .woocommerce input.button,
     .woocommerce p.buttons a.button {
         background-color: #a46497;
