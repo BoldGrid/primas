@@ -28,12 +28,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Assign Locations for Generic Header.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
-		'1' => array( '[menu]secondary' ),
-		'5' => array( '[widget]boldgrid-widget-2' ),
+		'12' => array( '[menu]secondary' ),
+		'1' => array( '[widget]boldgrid-widget-1' ),
 		'6' => array( '[action]boldgrid_site_identity' ),
-		'7' => array( '[menu]social' ),
+		'7' => array( '[menu]tertiary', '[menu]social' ),
+		'8' => array( '[widget]boldgrid-widget-2' ),
 		'11' => array( '[action]boldgrid_primary_navigation' ),
-		'13' => array( '[menu]tertiary' ),
 	);
 
 	// Assign Locations for Generic Footer.
@@ -141,11 +141,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 
-	// Menu Locations
-	$boldgrid_framework_configs['menu']['locations']['secondary'] = "Above Header";
-	$boldgrid_framework_configs['menu']['locations']['tertiary'] = "Above Social Media";
-	$boldgrid_framework_configs['menu']['locations']['social'] = "Top Right Social Media";
-
 	// Background
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['boldgrid_background_type'] = 'pattern';
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['boldgrid_background_pattern'] = 'maze-white.png';
@@ -173,7 +168,6 @@ HTML;
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Above Header';
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-2']['name'] = 'Above Primary Menu';
 
-	// Configs above will override framework defaults
 	return $boldgrid_framework_configs;
 }
 add_filter( 'boldgrid_theme_framework_config', 'boldgrid_theme_framework_config' );
@@ -184,7 +178,6 @@ add_filter( 'boldgrid_theme_framework_config', 'boldgrid_theme_framework_config'
 function filter_logo_controls( $controls ) {
 	$controls['logo_font_size']['default'] = 30;
 
-	// Controls above will override framework defaults
 	return $controls;
 }
 add_filter( 'kirki/fields', 'filter_logo_controls' );
