@@ -85,7 +85,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Typography Alternate Headings
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Raleway';
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 18;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'uppercase';
 
 	// Typography Navigation
@@ -98,33 +98,37 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 175;
 
+	// Typography Tagline Classes
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h5 alt-font';
+
 	// Typography Relationships
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.wc-gallery .gallery-caption h2' ]= array(
 		'type' => 'headings',
 		'round' => 'ceil',
 		'amount' => 3.9,
 	);
-
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-gamma-1 h2, .entry-title' ]= array(
 		'type' => 'headings',
 		'round' => 'floor',
 		'amount' => 1,
 	);
-
-	// Home Page H2's.
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.page-template-page_home h2:not( .alt-font, .wc-gallery .gallery-caption h2 ), .page-template-page_home .h2']= array(
 		'type' => 'headings',
 		'round' => 'floor',
 		'amount' => 1.4,
 	);
-
-	// Inside Page H2's.
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['h2:not( .alt-font ), .h2']= array(
 		'type' => 'headings',
 		'round' => 'floor',
 		'amount' => 1.8,
 	);
-	// Fonts & Icons
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.p-button-primary a, .p-button-secondary a, .form-submit a, .ninja-forms-all-fields-wrap input.btn']= array(
+		'type' => 'subheadings',
+		'round' => 'floor',
+		'amount' => 1.3,
+	);
+
+	// Icons
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 
@@ -146,7 +150,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		<div class="row call-to-action-wrapper">
 			<div class="col-md-12">
 				<div class="call-to-action">
-					<a class="button-primary" href="/about-us">Learn More</a>
+					<a class="button-primary" href="about-us">Learn More</a>
 				</div>
 			</div>
 		</div>
