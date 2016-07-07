@@ -95,17 +95,17 @@ h3 {
 	padding-left: 16px;
 }
 .entry-title {
-    font-size: 16px;
-    font-weight: 500;
+	font-size: 16px;
+	font-weight: 500;
 }
 
 /* ## Buttons */
 .button-primary,
 .button-secondary,
 input[type="submit"] {
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 .button-primary:hover,
 .button-primary:focus,
@@ -183,7 +183,7 @@ input[type="submit"]:focus {
 	font-size: 60px;
 	font-weight: 400;
 	text-align: center;
-    text-overflow: ellipsis;
+	text-overflow: ellipsis;
 }
 .wc-gallery .gallery-caption h2 {
 	white-space: normal;
@@ -197,7 +197,7 @@ input[type="submit"]:focus {
 
 /* ## WooCommerce */
 .woocommerce p.buttons a.button:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 /* # Footer */
@@ -248,9 +248,9 @@ input[type="submit"]:focus {
 }
 .entry-title {
 	float: left;
-    margin-bottom: 45px;
-    margin-top: 0;
-    padding: 15px;
+	margin-bottom: 45px;
+	margin-top: 0;
+	padding: 15px;
 }
 
 /* Headings */
@@ -258,10 +258,10 @@ input[type="submit"]:focus {
 	margin: 0 auto;
 }
 .heading h3 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 .heading {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 h2 i.fa {
 	padding-right: 10px;
@@ -297,7 +297,7 @@ input[type="submit"] {
 
 /* Comments */
 .comment-reply-link.btn.button-primary {
-    padding: 5px 10px;
+	padding: 5px 10px;
 }
 
 /* Positioning */
@@ -316,7 +316,7 @@ input[type="submit"] {
 .button-primary,
 .button-secondary {
 	display: block;
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 /* sm */
@@ -324,7 +324,7 @@ input[type="submit"] {
 	.button-primary,
 	.button-secondary {
 		display: inline;
-    	margin-top: 0;
+		margin-top: 0;
 	}
 	.gridblock .p-button-secondary {
 		margin: 20px 0 30px;
@@ -340,14 +340,14 @@ hr {
 	background-clip: content-box;
 }
 hr:after {
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    content: '';
-    display: block;
-    height: 0;
-    margin: 0 auto;
-    position: relative;
-    width: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	content: '';
+	display: block;
+	height: 0;
+	margin: 0 auto;
+	position: relative;
+	width: 0;
 }
 
 /* Forms */
@@ -445,17 +445,17 @@ select {
 ## Main Menu
 -----------------------------------------------*/
 .navbar {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 .navbar-default {
-    background: none;
-    border: none;
+	background: none;
+	border: none;
 }
 .navbar-nav {
-    margin: 0;
+	margin: 0;
 }
 .navbar-nav > li > a {
-    padding: 15px 10px;
+	padding: 15px 10px;
 }
 #primary-navbar {
 	padding-right: 0;
@@ -513,15 +513,15 @@ select {
 	float: right;
 }
 .menu-social ul li {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 .menu-social li a {
 	display: inline-block;
 	padding: 0 8px;
 }
 .tertiary-menu li.menu-social a {
-    padding: 0 3px;
+	padding: 0 3px;
 }
 .footer-center-menu ul {
 	padding-left: 0;
@@ -561,14 +561,14 @@ select {
 	padding-left: 1px;
 }
 .gridblock li:before {
-    border-bottom: 4px solid transparent;
-    border-top: 4px solid transparent;
-    content: '';
-    display: inline-block;
-    height: 0;
-    margin-right: 8px;
-    position: relative;
-    width: 0;
+	border-bottom: 4px solid transparent;
+	border-top: 4px solid transparent;
+	content: '';
+	display: inline-block;
+	height: 0;
+	margin-right: 8px;
+	position: relative;
+	width: 0;
 }
 .gridblock hr {
 	margin-bottom: 25px;
@@ -740,19 +740,19 @@ select {
 	max-height: 100%;
 }
 .wc-gallery .gallery-caption h2 {
-    overflow: hidden;
-    padding: 20% 15% 0;
+	overflow: hidden;
+	padding: 20% 15% 0;
 }
 .wcflex-direction-nav a {
-    cursor: pointer;
-    display: block;
-    height: 50px;
-    opacity: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 50%;
-    width: 50px;
-    z-index: 10;
+	cursor: pointer;
+	display: block;
+	height: 50px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	z-index: 10;
 	/* Filter */
 	-webkit-filter: invert(1);
 	-moz-filter: invert(1);
@@ -761,7 +761,7 @@ select {
 	filter: invert(1);
 }
 .wc-gallery .wc-gallery-bottomspace-default {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 .wc-gallery .gallery .gallery-icon a img {
 	margin-left:-16px;
@@ -775,16 +775,16 @@ select {
 ------------------------------------------------------------------------*/
 .widget-area {
 	margin-top: 25px;
-    padding: 25px;
+	padding: 25px;
 }
 .entry-meta {
-    clear: both;
+	clear: both;
 }
 
 /* Comments */
 .comment-form-comment label {
-    float: left;
-    padding-right: 15px;
+	float: left;
+	padding-right: 15px;
 }
 
 /* Call to Action */
@@ -796,7 +796,7 @@ select {
 .form-submit .submit {
 	background: none;
 	margin-bottom: 75px;
-    padding: 12px 22px;
+	padding: 12px 22px;
 	/* Border Radius */
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -816,7 +816,7 @@ select {
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce p.buttons a.button:hover {
-    background-image: none;
+	background-image: none;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
@@ -856,7 +856,7 @@ html, body, .site, .site-content {
 	height: 100%;
 }
 #boldgrid-sticky-wrap {
-  	min-height: 100%;
-  	height: auto !important;
-  	height: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
