@@ -146,7 +146,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		<div class="row call-to-action-wrapper">
 			<div class="col-md-12">
 				<div class="call-to-action">
-					<a class="button-primary" href="/about-us">Learn More</a>
+					<a class="button-primary" href="about-us">Learn More</a>
 				</div>
 			</div>
 		</div>
