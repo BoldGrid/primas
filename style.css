@@ -53,10 +53,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Background
 -----------------------------------------------*/
 .page-content, .entry-content, .entry-summary {
-    clear: both;
+	clear: both;
 }
 .site-content {
-    padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 /*-----------------------------------------------
