@@ -130,6 +130,36 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 175;
 
+	// Typography Tagline Classes.
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h5 alt-font';
+
+	// Typography Relationships.
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.wc-gallery .gallery-caption h2'] = array(
+		'type' => 'headings',
+		'round' => 'ceil',
+		'amount' => 3.9,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-gamma-1 h2, .entry-title'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.page-template-page_home h2:not( .alt-font, .wc-gallery .gallery-caption h2 ), .page-template-page_home .h2'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.4,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['h2:not( .alt-font ), .h2'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.8,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.p-button-primary a, .p-button-secondary a, .form-submit a, .ninja-forms-all-fields-wrap input.btn'] = array(
+		'type' => 'subheadings',
+		'round' => 'floor',
+		'amount' => 1.3,
+	);
+
 	// Fonts & Icons.
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
