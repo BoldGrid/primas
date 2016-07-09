@@ -15,7 +15,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 >>> TABLE OF CONTENTS:
 --------------------------------------------------------------------------
 # Base Styles
-	## Background
 	## Positioning
 	## Typography
 	## Titles
@@ -46,10 +45,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*------------------------------------------------------------------------
 # Base Styles
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Background
------------------------------------------------*/
 
 /*-----------------------------------------------
 ## Positioning
@@ -112,6 +107,11 @@ input[type="submit"]:focus,
 .attribution a:focus {
 	text-decoration: none;
 }
+.menu-social li a {
+	text-align: right;
+}
+
+/* xs */
 .social,
 .navbar-nav,
 .secondary-menu,
@@ -123,14 +123,7 @@ input[type="submit"]:focus,
 .wc-gallery .gallery-caption h2,
 .site-footer,
 .site-info,
-.attribution {
-	text-align: center;
-}
-.menu-social li a {
-	text-align: right;
-}
-
-/* xs */
+.attribution,
 .site-title,
 .xs-center,
 .mod-img,
@@ -201,11 +194,9 @@ h2 i.fa {
 input[type="submit"] {
 	background: none;
 	padding: 14px 24px;
-	/* Border Radius */
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	/* Transition */
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
@@ -279,11 +270,9 @@ select {
 	border: none;
 	height: 35px;
 	padding: 0.313em;
-	/* Appearance */
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	/* Border-Radius */
 	-webkit-border-radius: 1px;
 	-moz-border-radius: 1px;
 	border-radius: 1px;
@@ -413,9 +402,6 @@ select {
 .secondary-menu li a {
 	padding: 0 10px;
 }
-.secondary-menu li:after {
-	content: "";
-}
 .tertiary-menu {
 	background: none;
 	padding-right: 0;
@@ -423,6 +409,7 @@ select {
 .tertiary-menu li a {
 	padding: 0 5px;
 }
+.secondary-menu li:after,
 .tertiary-menu li:after {
 	content: "";
 }
@@ -532,7 +519,6 @@ blockquote p,
 	-moz-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 	filter: grayscale(100%);
-	/* Trasition */
 	-webkit-transition: .3s ease-in-out;
 	-moz-transition: .3s ease-in-out;
 	-o-transition: .3s ease-in-out;
@@ -543,7 +529,6 @@ blockquote p,
 	-moz-filter: grayscale(0%);
 	-o-filter: grayscale(0%);
 	filter: grayscale(0%);
-	/* Transition */
 	-webkit-transition: .3s ease-in-out;
 	-moz-transition: .3s ease-in-out;
 	-o-transition: .3s ease-in-out;
@@ -564,7 +549,6 @@ blockquote p,
 	height: 120px;
 	margin: 50px auto 0;
 	width: 120px;
-	/* Border Radius */
 	-webkit-border-radius: 120px;
 	-moz-border-radius: 120px;
 	border-radius: 120px;
@@ -621,11 +605,9 @@ blockquote p,
 	background: none;
 	margin-bottom: 75px;
 	padding: 12px 22px;
-	/* Border Radius */
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	/* Transition */
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
@@ -674,7 +656,6 @@ blockquote p,
 	top: 50%;
 	width: 50px;
 	z-index: 10;
-	/* Filter */
 	-webkit-filter: invert(1);
 	-moz-filter: invert(1);
 	-ms-filter: invert(1);
