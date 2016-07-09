@@ -26,9 +26,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Main Menu
 	## Other Menus
 	## Social Menus
-# GridBLocks
-	## Positioning
-	## Et Cetera
+# GridBlocks
 # Modules
 	## Global
 	## Alpha
@@ -445,26 +443,6 @@ select {
 /*------------------------------------------------------------------------
 # GridBlocks
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Positioning
------------------------------------------------*/
-.gridblock h1,
-.gridblock h2,
-.gridblock h3,
-.gridblock h4,
-.gridblock h5,
-.gridblock h6,
-.gridblock ol,
-.gridblock ul,
-.gridblock li,
-.gridblock p {
-	margin: 10px 0;
-}
-
-/*-----------------------------------------------
-## Et Cetera
------------------------------------------------*/
 .gridblock li {
 	list-style-type: none;
 	padding-left: 1px;
