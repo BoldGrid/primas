@@ -164,6 +164,11 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 
+	// Menu Locations.
+	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Above Header';
+	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Above Social Media';
+	$boldgrid_framework_configs['menu']['locations']['social'] = 'Top Right Social Media';
+
 	// Background.
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['boldgrid_background_type'] = 'pattern';
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['boldgrid_background_pattern'] = 'maze-white.png';
