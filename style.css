@@ -330,15 +330,6 @@ select {
 	padding-top: 15px;
 }
 
-/* Social Media */
-.social {
-	margin-top: 10px;
-	padding-right: 0;
-}
-.social a i {
-	padding: 10px 5px;
-}
-
 /*------------------------------------------------------------------------
 # Navigation
 ------------------------------------------------------------------------*/
@@ -407,29 +398,19 @@ select {
 /*-----------------------------------------------
 ## Social Menus
 -----------------------------------------------*/
-.menu-social ul {
-	padding-left: 0px;
-	float: right;
-}
-.menu-social ul li {
-	position: relative;
-	display: inline-block;
-}
-.menu-social li a {
-	display: inline-block;
-	padding: 0 8px;
-}
-.tertiary-menu li.menu-social a {
-	padding: 0 3px;
-}
 .footer-center-menu ul {
 	padding-left: 0;
 }
-.footer-center-menu li.menu-social:after {
-	content: "";
+/* Social Media */
+.social-menu {
+	margin-top: 1em;
+	float: right;
 }
-.footer-center-menu li.menu-social a {
-	padding: 0 5px;
+.social-menu li {
+	padding: 0 1em;
+}
+.social-menu li:last-of-type {
+	padding: 0;
 }
 
 /*------------------------------------------------------------------------
@@ -656,10 +637,7 @@ blockquote p,
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	padding: 15px 0;
-}
-.site-info {
-	margin-top: 30px;
+	padding: 2em 0;
 }
 .disabled-footer .site-footer {
 	background: none;
