@@ -87,6 +87,8 @@ input[type="submit"] {
 .attribution a {
 	text-decoration: underline;
 }
+.entry-title a:hover,
+.entry-title a:focus,
 .button-primary:hover,
 .button-primary:focus,
 .button-primary:active,
