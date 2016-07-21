@@ -400,8 +400,8 @@ select {
 /*-----------------------------------------------
 ## Social Menus
 -----------------------------------------------*/
-.footer-center-menu ul {
-	padding-left: 0;
+.footer-center-items li.menu-social:after {
+	content: "";
 }
 /* Social Media */
 .social-menu {
@@ -412,7 +412,7 @@ select {
 	padding: 0 1em;
 }
 .social-menu li:last-of-type {
-	padding: 0;
+	padding-right: 0;
 }
 
 /*------------------------------------------------------------------------
