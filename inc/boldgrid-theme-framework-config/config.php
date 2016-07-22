@@ -37,8 +37,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Assign Locations for Generic Footer.
 	$boldgrid_framework_configs['template']['locations']['footer'] = array(
-		'1' => array( '[widget]boldgrid-widget-3' ),
-		'5' => array( '[menu]footer_center' ),
+		'1' => array( '[menu]footer_center' ),
+		'5' => array( '[widget]boldgrid-widget-3' ),
 		'8' => array( '[action]boldgrid_display_attribution_links' ),
 	);
 
