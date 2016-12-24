@@ -159,8 +159,8 @@ input[type="submit"]:focus,
 }
 .entry-title {
 	float: left;
-	margin-bottom: 45px;
 	margin-top: 0;
+	margin-bottom: 45px;
 	padding: 15px;
 }
 
@@ -184,10 +184,10 @@ h2 i.fa {
 .button-primary,
 .button-secondary,
 input[type="submit"] {
-	background: none;
 	padding: 14px 24px;
 	border-radius: 6px;
-	transition: all 0.3s ease 0s;
+	background: none;
+	transition: all .3s ease 0s;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -235,44 +235,45 @@ input[type="submit"] {
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	border: 0;
-	height: 1px;
-	background-clip: content-box;
 	margin: 65px 0 50px;
+	height: 1px;
+	border: 0;
+	background-clip: content-box;
 }
 hr::after {
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	content: '';
-	display: block;
-	height: 0;
-	margin: 0 auto;
 	position: relative;
+	display: block;
+	margin: 0 auto;
 	width: 0;
+	height: 0;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	content: "";
 }
 
 /* Forms */
 select {
-	background: url('images/form-arrow-down.png') 100% / 6% no-repeat #fff;
-	border: none;
+	padding: .313em;
 	height: 35px;
-	padding: 0.313em;
+	border: none;
+	border-radius: 1px;
+	background: url("images/form-arrow-down.png") 100% / 6% no-repeat #fff;
+
 	-webkit-appearance: none;
 	appearance: none;
-	border-radius: 1px;
 }
 .address_city {
 	width: 100% !important;
 }
 .address_state {
-	margin-left: 0% !important;
+	margin-left: 0 !important;
 	width: 100% !important;
 }
 .address_zip {
 	width: 100% !important;
 }
 .address_country {
-	margin-left: 0% !important;
+	margin-left: 0 !important;
 	width: 100% !important;
 }
 
@@ -284,7 +285,7 @@ select {
 /* sm */
 @media (min-width: 768px) {
 	select {
-		background: url('images/form-arrow-down.png') 100% / 7% no-repeat #fff;
+		background: url("images/form-arrow-down.png") 100% / 7% no-repeat #fff;
 	}
 	.address_city {
 		margin-right: 1.3% !important;
@@ -307,7 +308,7 @@ select {
 /* md */
 @media (min-width: 992px) {
 	select {
-		background: url('images/form-arrow-down.png') 100% / 10% no-repeat #fff;
+		background: url("images/form-arrow-down.png") 100% / 10% no-repeat #fff;
 	}
 }
 
@@ -335,8 +336,8 @@ select {
 	margin-bottom: 10px;
 }
 .navbar-default {
-	background: none;
 	border: none;
+	background: none;
 }
 .navbar-nav {
 	margin: 0;
@@ -378,8 +379,8 @@ select {
 	padding: 0 10px;
 }
 .tertiary-menu {
-	background: none;
 	padding-right: 0;
+	background: none;
 }
 .tertiary-menu li a {
 	padding: 0 5px;
@@ -397,8 +398,8 @@ select {
 }
 /* Social Media */
 .social-menu {
-	margin-top: 1em;
 	float: right;
+	margin-top: 1em;
 }
 .social-menu li {
 	padding: 0 1em;
@@ -411,22 +412,22 @@ select {
 # GridBlocks
 ------------------------------------------------------------------------*/
 .gridblock li {
-	list-style-type: none;
 	padding-left: 1px;
+	list-style-type: none;
 }
 .gridblock li::before {
-	border-bottom: 4px solid transparent;
-	border-top: 4px solid transparent;
-	content: '';
-	display: inline-block;
-	height: 0;
-	margin-right: 8px;
 	position: relative;
+	display: inline-block;
+	margin-right: 8px;
 	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	content: "";
 }
 .gridblock hr {
-	margin-bottom: 25px;
 	margin-top: 10px;
+	margin-bottom: 25px;
 }
 
 /*------------------------------------------------------------------------
@@ -437,19 +438,19 @@ select {
 ## Global
 -----------------------------------------------*/
 .mod-divider-1 {
-	background: url('images/arrow-down.png') top center no-repeat;
-	margin-bottom: 25px;
 	margin-top: 0;
+	margin-bottom: 25px;
+	background: url("images/arrow-down.png") top center no-repeat;
 }
 .mod-divider-2 {
-	background: url('images/arrow-down.png') top center no-repeat;
-	margin-bottom: 25px;
 	margin-top: 25px;
+	margin-bottom: 25px;
+	background: url("images/arrow-down.png") top center no-repeat;
 }
 blockquote,
 .mod-blockquote {
-	padding-bottom: 0;
 	padding-top: 0;
+	padding-bottom: 0;
 }
 blockquote p,
 .mod-blockquote p {
@@ -460,16 +461,18 @@ blockquote p,
 ## Alpha
 -----------------------------------------------*/
 .mod-alpha img {
+	filter: grayscale(100%);
+	transition: all .3s ease 0s;
+
 	-moz-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
-	filter: grayscale(100%);
-	transition: all 0.3s ease 0s;
 }
 .mod-alpha img:hover {
+	filter: grayscale(0%);
+	transition: all .3s ease 0s;
+
 	-moz-filter: grayscale(0%);
 	-o-filter: grayscale(0%);
-	filter: grayscale(0%);
-	transition: all 0.3s ease 0s;
 }
 
 /*-----------------------------------------------
@@ -483,13 +486,13 @@ blockquote p,
 ## Gamma
 -----------------------------------------------*/
 .background-icon {
-	height: 120px;
 	margin: 50px auto 0;
 	width: 120px;
+	height: 120px;
 	border-radius: 120px;
 }
 .mod-gamma-2 {
-	margin: 75px 0px;
+	margin: 75px 0;
 }
 .mod-gamma-1 h2 {
 	margin: 15px 0;
@@ -514,8 +517,8 @@ blockquote p,
 ------------------------------------------------------------------------*/
 /* Search Page */
 .search .jumbotron {
-	text-align: center;
 	background: none;
+	text-align: center;
 }
 
 /*------------------------------------------------------------------------
@@ -542,11 +545,11 @@ blockquote p,
 
 /* Buttons */
 .form-submit .submit {
-	background: none;
 	margin-bottom: 75px;
 	padding: 12px 22px;
 	border-radius: 6px;
-	transition: all 0.3s ease 0s;
+	background: none;
+	transition: all .3s ease 0s;
 }
 
 /*------------------------------------------------------------------------
@@ -557,53 +560,54 @@ blockquote p,
 ## WP Canvas Gallery
 -----------------------------------------------*/
 .gallery-icon {
+	position: relative;
 	float: left;
 	max-width: 100%;
-	position: relative;
 }
 .gallery-icon::after {
-	bottom: 0;
-	content: "";
-	left: 0;
 	position: absolute;
-	right: 0;
 	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: "";
 }
 .gallery-icon img {
 	float: left;
 }
 .wc-image-links .gallery-caption,
-.wc-gallery-captions-showon .gallery-caption{
-	height: 100%;
+.wc-gallery-captions-showon .gallery-caption {
 	max-height: 100%;
+	height: 100%;
 }
 .wc-gallery .gallery-caption h2 {
 	overflow: hidden;
 	padding: 20% 15% 0;
 }
 .wcflex-direction-nav a {
-	cursor: pointer;
-	display: block;
-	height: 50px;
-	opacity: 0;
-	overflow: hidden;
 	position: absolute;
 	top: 50%;
-	width: 50px;
 	z-index: 10;
-	-moz-filter: invert(1);
+	display: block;
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	opacity: 0;
 	-ms-filter: invert(1);
-	-o-filter: invert(1);
 	filter: invert(1);
+	cursor: pointer;
+
+	-moz-filter: invert(1);
+	-o-filter: invert(1);
 }
 .wc-gallery .wc-gallery-bottomspace-default {
 	margin-bottom: 0;
 }
 .wc-gallery .gallery .gallery-icon a img {
-	margin-left:-16px;
+	margin-left: -16px;
 }
 .wc-gallery .wcflexslider .slides .gallery-caption {
-	margin-left:-16px;
+	margin-left: -16px;
 }
 
 /*-----------------------------------------------
@@ -623,9 +627,9 @@ blockquote p,
 	padding: 2em 0;
 }
 .disabled-footer .site-footer {
-	background: none;
-	height: auto;
 	padding: 15px 0;
+	height: auto;
+	background: none;
 }
 
 /* xs */
