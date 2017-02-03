@@ -174,19 +174,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['boldgrid_background_pattern'] = 'maze-white.png';
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['background_image'] = false;
 
-	/**
-	 * Widgets
-	 */
-	$boldgrid_framework_configs['widget']['widget_instances']['call-to-action'] = <<<HTML
-		<div class="row call-to-action-wrapper">
-			<div class="col-md-12">
-				<div class="call-to-action">
-					<a class="button-primary" href="about-us">Learn More</a>
-				</div>
-			</div>
-		</div>
-HTML;
-
 	// Name Widget Areas.
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Above Header';
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-2']['name'] = 'Above Primary Menu';
