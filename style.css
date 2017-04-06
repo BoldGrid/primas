@@ -97,8 +97,6 @@ input[type="submit"]:hover,
 input[type="submit"]:focus,
 .button-secondary:hover,
 .button-secondary:focus,
-.woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus,
 .site-footer a:hover,
 .site-footer a:focus,
 .site-info a:hover,
@@ -613,9 +611,6 @@ blockquote p,
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-.woocommerce p.buttons a.button:hover {
-	background-image: none;
-}
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
 }

@@ -11,9 +11,7 @@
 	.link-primary,
 	.widget-title,
 	#reply-title,
-	.social i:hover {
-		color: $palette-primary_1;
-	}
+	.social i:hover,
 	.site-footer a,
 	.site-footer a:hover,
 	.site-footer a:focus,
@@ -120,7 +118,6 @@
 	.site-info a,
 	.site-info a:hover,
 	.site-info a:focus,
-	.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
 	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
 	.woocommerce div.product form.cart .variations label,
 	#footer-center-menu .menu-item a {
@@ -173,18 +170,6 @@
 		-webkit-box-shadow: inset 0px 0px 0px 15px rgba(255, 255, 255, 0.75);
 		-moz-box-shadow: inset 0px 0px 0px 15px rgba(255, 255, 255, 0.75);
 		box-shadow: inset 0px 0px 0px 15px rgba(255, 255, 255, 0.75);
-	}
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-		background-color: #a46497;
-		color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-		color: #515151;
 	}
 	#secondary-menu .menu-item a {
 		color: $text-contrast-palette-primary_2;
