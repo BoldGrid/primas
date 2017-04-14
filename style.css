@@ -611,7 +611,7 @@ blockquote p,
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-.woocommerce div.product .woocommerce-tabs .panel {
+.panel {
 	background: none;
 	box-shadow: none;
 }
