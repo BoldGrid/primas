@@ -613,6 +613,7 @@ blockquote p,
 -----------------------------------------------*/
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
+	box-shadow: none;
 }
 .woocommerce-account p.order-again .btn.button-primary {
 	padding: 10px 20px;
