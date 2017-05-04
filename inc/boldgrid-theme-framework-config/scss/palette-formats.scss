@@ -224,4 +224,14 @@
 	.navbar-default .navbar-nav > li > a {
 		color: $text-contrast-palette-primary_3;
 	}
+
+	/*-----------------------------------------------
+	## WooCommerce
+	-----------------------------------------------*/
+	&.woocommerce div.product .stock.out-of-stock {
+		color: $palette-primary_1;
+	}
+	&.woocommerce div.product .stock {
+		color: $palette-primary_1;
+	}
 }
