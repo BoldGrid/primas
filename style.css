@@ -620,6 +620,9 @@ blockquote p,
 	float: none;
 	margin-bottom: 10px;
 }
+.woocommerce h1.entry-title {
+	background: transparent;
+}
 .panel {
 	background: none;
 	box-shadow: none;
