@@ -611,6 +611,15 @@ blockquote p,
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
+.woocommerce .page-content,
+.woocommerce .entry-content,
+.woocommerce .entry-summary {
+	clear: none;
+}
+.woocommerce .entry-title {
+	float: none;
+	margin-bottom: 10px;
+}
 .panel {
 	background: none;
 	box-shadow: none;
