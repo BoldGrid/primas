@@ -127,13 +127,15 @@ input[type="submit"]:focus,
 .mod-img,
 .mod-img-circle,
 .p-button-primary,
-.p-button-secondary {
+.p-button-secondary,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 	text-align: center;
 }
 
 /* sm */
 @media (min-width: 768px) {
-	.site-title {
+	.site-title,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		text-align: left;
 	}
 }
