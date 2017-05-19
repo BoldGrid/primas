@@ -565,7 +565,7 @@ blockquote p,
 /*-----------------------------------------------
 ## WP Canvas Gallery
 -----------------------------------------------*/
-.gallery-icon {
+ .gallery-icon {
 	position: relative;
 	float: left;
 	max-width: 100%;
@@ -602,7 +602,6 @@ blockquote p,
 	-ms-filter: invert(1);
 	filter: invert(1);
 	cursor: pointer;
-
 	-moz-filter: invert(1);
 	-o-filter: invert(1);
 }
@@ -614,6 +613,21 @@ blockquote p,
 }
 .wc-gallery .wcflexslider .slides .gallery-caption {
 	margin-left: -16px;
+} 
+
+/* Gallery Captions for Masonry */
+.wc-gallery .gallery .masonry-brick .gallery-icon a img {
+	margin-left: 0;
+}
+.wc-gallery .masonry-brick .gallery-caption h2 {
+	padding: 0;
+}
+.wc-gallery .wc-gallery-captions-showon .masonry-brick .gallery-caption {
+	max-height: 100%;
+	height: auto;
+}
+.wc-gallery .gallery .masonry-brick .gallery-icon::after {
+	position: static;
 }
 
 /*-----------------------------------------------
