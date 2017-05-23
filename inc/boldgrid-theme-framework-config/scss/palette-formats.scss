@@ -13,6 +13,7 @@ $rgba_2 : rgba($palette-primary_2, 0.75);
 	## 1
 	-----------------------------------------------*/
 	a,
+	.menu-item a,
 	.link-primary,
 	.widget-title,
 	#reply-title,
@@ -219,9 +220,6 @@ $rgba_2 : rgba($palette-primary_2, 0.75);
 				}
 			}
 		}
-	}
-	.menu-item a {
-		color: $text-contrast-palette-primary_3;
 	}
 	.navbar-default .navbar-nav > li > a {
 		color: $text-contrast-palette-primary_3;
