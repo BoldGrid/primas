@@ -9,16 +9,11 @@
 	-----------------------------------------------*/
 	a,
 	.menu-item a,
-	.link-primary,
 	.widget-title,
 	#reply-title,
 	.social i:hover,
-	.site-footer a,
 	.site-footer a:hover,
 	.site-footer a:focus,
-	.attribution a,
-	.attribution a:hover,
-	.attribution a:focus,
 	#footer-center-menu .current_page_item a[href] {
 		color: $palette-primary_1;
 	}
@@ -33,20 +28,14 @@
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}
-	.button-primary,
-	.form-submit .submit,
-	input[type="submit"]  {
+	.button-primary {
 		border: 2px solid $palette-primary_2;
 		color: $palette-primary_2;
 	}
 	.open > .dropdown-toggle.button-primary,
 	.button-primary:hover,
 	.button-primary:focus,
-	.button-primary:active,
-	.form-submit .submit:hover,
-	.form-submit .submit:focus,
-	input[type="submit"]:hover,
-	input[type="submit"]:focus {
+	.button-primary:active {
 		background: $palette-primary_2;
 		border-color: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
@@ -97,7 +86,6 @@
 	.navbar-collapse,
 	.site-footer,
 	.site-footer p,
-	.attribution span,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
@@ -122,9 +110,6 @@
 	 /*-----------------------------------------------
 	## Light Text
 	-----------------------------------------------*/
-	.comment-text {
-		background: #fff;
-	}
 	.secondary-menu li a,
 	.mod-gamma-1 i {
 		color: #fff;
@@ -135,12 +120,6 @@
 	h1,
 	h3,
 	h2,
-	.site-info,
-	.site-info a,
-	.site-info a:hover,
-	.site-info a:focus,
-	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
-	.woocommerce div.product form.cart .variations label,
 	#footer-center-menu .menu-item a {
 		color: #333;
 	}
@@ -181,9 +160,6 @@
 	.mod-beta img {
 		border: 1px solid #a5a5a5;
 	}
-	.widget-area {
-		border: 1px solid #777;
-	}
 	.wc-image-links .gallery-caption,
 	.wc-gallery-captions-showon .gallery-caption {
 		background: rgba(51, 51, 51, 0.60);
@@ -218,15 +194,5 @@
 	}
 	.navbar-default .navbar-nav > li > a {
 		color: $text-contrast-palette-primary_3;
-	}
-
-	/*-----------------------------------------------
-	## WooCommerce
-	-----------------------------------------------*/
-	&.woocommerce div.product .stock.out-of-stock {
-		color: $palette-primary_1;
-	}
-	&.woocommerce div.product .stock {
-		color: $palette-primary_1;
 	}
 }
