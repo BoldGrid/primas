@@ -90,7 +90,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	text-align: right;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .social,
 .navbar-nav,
 .secondary-menu,
@@ -110,16 +110,16 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	text-align: center;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.site-title,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		text-align: left;
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -196,8 +196,8 @@ h2 i.fa {
 	margin-top: 15px;
 }
 
-/* sm */
-@media (min-width: 600px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.button-primary,
 	.button-secondary {
 		display: inline;
@@ -255,9 +255,8 @@ hr {
 	background: none;
 }
 
-/* sm */
-@media (min-width: 768px) {
-	/* Small - tablets */
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.navbar-default {
 		float: left;
 		padding-top: 0;
@@ -267,8 +266,8 @@ hr {
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.navbar-default {
 		float: right;
 		margin-right: -15px;
@@ -298,6 +297,7 @@ hr {
 .footer-center-items li.menu-social:after {
 	content: "";
 }
+
 /* Social Media */
 .social-menu {
 	float: right;
