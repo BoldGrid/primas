@@ -80,9 +80,7 @@
 		color: $text-contrast-palette-primary_3;
 		border-bottom: 5px solid $palette-primary_2;
 	}
-	.site-title a,
 	.social i,
-	.site-description,
 	.navbar-collapse,
 	.site-footer,
 	.site-footer p,
@@ -96,6 +94,8 @@
 	#secondary-menu .current_page_item a[href] {
 		color: $palette-primary_3;
 	}
+	.site-title a,
+	.site-description,
 	#secondary-menu a[href],
 	#tertiary-menu a[href] {
 		color: $text-contrast-palette-primary_3;
