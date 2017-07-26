@@ -503,7 +503,7 @@ blockquote p,
 /*-----------------------------------------------
 ## The Events Calendar
 -----------------------------------------------*/
-.palette-primary h4.entry-title {
+.post-type-archive-tribe_events h4.entry-title {
 	float: none;
 }
 
