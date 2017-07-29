@@ -470,9 +470,9 @@ blockquote p,
 .wc-gallery .wc-gallery-bottomspace-default {
 	margin-bottom: 0;
 }
-.wc-gallery .gallery .gallery-icon a img {
-	margin-left: -16px;
-}
+
+.wcflexslider-container .gallery-icon,
+.wc-gallery .gallery .gallery-icon a img,
 .wc-gallery .wcflexslider .slides .gallery-caption {
 	margin-left: -16px;
 }
