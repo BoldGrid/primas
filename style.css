@@ -146,6 +146,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .hentry {
 	margin: 0 auto;
 }
+.hentry:first-child ~ .hentry {
+	margin-top: 50px;
+}
 .heading h3 {
 	margin-top: 10px;
 }
