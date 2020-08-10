@@ -440,7 +440,6 @@ blockquote p,
 -----------------------------------------------*/
 .gallery-icon {
 	position: relative;
-	float: left;
 	max-width: 100%;
 }
 .gallery-icon::after {
@@ -450,9 +449,6 @@ blockquote p,
 	bottom: 0;
 	left: 0;
 	content: "";
-}
-.gallery-icon img {
-	float: left;
 }
 .wc-image-links .gallery-caption,
 .wc-gallery-captions-showon .gallery-caption {
